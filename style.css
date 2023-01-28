@@ -9,4 +9,54 @@ html, body {
   top: 0;
   bottom: 0;
   width: 100%;
+  
+}
+
+.dark_map {
+    background-color: #04041b;
+    filter: invert(100%) hue-rotate(180deg) brightness(95%) contrast(90%)
+  }
+
+.dark_tools {
+  color:white;
+  background: #04041b;
+}
+
+.light_tools{
+  background: white;
+  color:black;
+}
+
+.locate {
+  top: 4.2em;
+  left: 0.6em;
+  background: white;
+  color:black;
+  text-align: top;
+  line-height:1.2em;
+}
+
+#tools {
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+}
+
+#tools a {
+  display: inline-block;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+
+.menu {
+  top: 0;
+  bottom: 0;
+  z-index: 10;
+}
+
+#theme {
+  color:fuchsia;
+  text-align: center;
+  font-size: 50px;
 }
