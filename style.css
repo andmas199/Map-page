@@ -18,22 +18,57 @@ html, body {
   }
 
 .dark_tools {
-  color:white;
-  background: #04041b;
+  color:var(--ol-background-color);
+  background: var(--ol-subtle-foreground-color);
 }
 
 .light_tools{
-  background: white;
-  color:black;
+  background: var(--ol-background-color);
+  color:var(--ol-subtle-foreground-color);
 }
 
-.locate {
-  top: 4.2em;
-  left: 0.6em;
-  background: white;
-  color:black;
-  text-align: top;
-  line-height:1.2em;
+#locate_button {
+  top: 3.5rem;
+  left: 0.55rem;
+  border-radius: 4px;
+  height: 2.42rem;
+  width: 1.44rem;
+  background-color: var(--ol-subtle-background-color);
+}
+
+#locate:hover {
+  border-color:gray;
+}
+
+#draw_button:hover {
+  border-color:gray;
+}
+
+#draw_button{
+  position:fixed;
+  left: 0.63rem;
+  top: 4.8rem;
+  font-size: 8.5px;
+  border:none;
+  z-index: 1;
+  border: 1px solid transparent;
+  background-color: white;
+  border-radius: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+#locate {
+  position: fixed;
+  top: 3.5rem;
+  left: 0.54rem;
+  font-size: 10px;
+  margin: 1px;
+  color: var(--ol-subtle-foreground-color);
+  background-color: white;
+  border:1px solid transparent;
+  z-index: 1;
+  border-radius: 0.2rem;
+  padding-bottom: 0.2rem;
 }
 
 #tools {
