@@ -1,18 +1,5 @@
-# OpenLayers + Vite
+# Map page with OpenLayers (WIP)
 
-This example demonstrates how the `ol` package can be used with [Vite](https://vitejs.dev/).
+This project is a little web page used as a learning grounds for Javascript and the OpenLayers API.
 
-To get started, run the following (requires Node 14+):
-
-    npx create-ol-app my-app --template vite
-
-Then change into your new `my-app` directory and start a development server (available at http://localhost:5173):
-
-    cd my-app
-    npm start
-
-To generate a build ready for production:
-
-    npm run build
-
-Then deploy the contents of the `dist` directory to your server.  You can also run `npm run serve` to serve the results of the `dist` directory for preview.
+Currently it shows a fullscreen map with a few interactive buttons for zooming in and out, geolocating the user and choosing between light and dark themes
